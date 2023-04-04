@@ -12,6 +12,6 @@ class SingletonTest {
     @org.junit.Test
     fun testAdd() {
         val instance = Singleton.instance
-        assertEquals(4, instance.add(2, 1))
+        assertEquals(4, instance.add(2, 2))
     }
 }
